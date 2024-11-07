@@ -1,0 +1,31 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/melanin coffee.png' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+</head>
+<body>
+<div class="navbar">
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'services' %}">Services</a>
+    <a href="{% url 'contact' %}">Contact</a>
+    <a href="{% url 'blog' %}">Blog</a>
+    <a href="{% url 'profile' %}">My Profile</a>
+</div>
+{#<br>#}
+<h2>Welcome to my first project</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae dolores, eos explicabo fugit labore necessitatibus numquam placeat porro ratione recusandae repudiandae saepe sequi velit,
+    vero. Dolores ex quidem vero.</p>
+<img src="{% static 'images/grafix.avif' %}" alt="">
+{#<img src="{% static 'images/melanin coffee.png' %}" alt="">#}
+
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

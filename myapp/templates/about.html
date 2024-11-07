@@ -1,0 +1,22 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>about us</title>
+</head>
+<body>
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'contact' %}">Contact</a>
+<a href="{% url 'blog' %}">Blog</a>
+<a href="{% url 'profile' %}">My Profile</a>
+<h2>Read more about us!</h2>
+<img src="{% static 'images/barbershop.png' %}" alt="">
+</body>
+</html>

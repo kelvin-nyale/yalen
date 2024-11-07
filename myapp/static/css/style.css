@@ -1,0 +1,25 @@
+body{
+    background: rgb(2, 3, 39);
+}
+/*.navbar{*/
+/*    background-color: teal;*/
+/*    height: 100px;*/
+/*    width: 100%;*/
+/*}*/
+a{
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+}
+a:hover{
+    color: crimson;
+    font-size: large;
+    transition: .5s;
+}
+h2{
+    color: #f5f5dc;
+}
+p{
+    color: lawngreen;
+}
